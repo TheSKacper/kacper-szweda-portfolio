@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import { FaGithub, FaLinkedin, FaFacebook, FaTwitter } from "react-icons/fa";
 
 const NavBar = () => {
-  const [activeLink, setActiveLink] = useState("home");
   const [scolled, setScrolled] = useState(false);
 
   useEffect(() => {
@@ -39,63 +38,38 @@ const NavBar = () => {
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav ms-auto d-flex align-items-center">
               <li className="nav-item ms-2">
-                <a
-                  className={
-                    activeLink === "home" ? "nav-link active" : "nav-link"
-                  }
-                  aria-current="page"
-                  href="#home"
-                  onClick={() => setActiveLink("home")}
-                >
+                <a className="nav-link" aria-current="page" href="#home">
                   Home
                 </a>
               </li>
               <li className="nav-item ms-2">
-                <a
-                  className={
-                    activeLink === "about" ? "nav-link active" : "nav-link"
-                  }
-                  href="#about"
-                  onClick={() => setActiveLink("about")}
-                >
+                <a className={"nav-link"} href="#about">
                   About
                 </a>
               </li>
               <li className="nav-item ms-2">
-                <a
-                  className={
-                    activeLink === "projects" ? "nav-link active" : "nav-link"
-                  }
-                  href="#projects"
-                  onClick={() => setActiveLink("projects")}
-                >
+                <a className={"nav-link"} href="#projects">
                   Projects
                 </a>
               </li>
               <li className="nav-item ms-2">
-                <a
-                  className={
-                    activeLink === "contact" ? "nav-link active" : "nav-link"
-                  }
-                  href="#contact"
-                  onClick={() => setActiveLink("contact")}
-                >
+                <a className={"nav-link"} href="#contact">
                   Contact
                 </a>
               </li>
             </ul>
             <ul className="navbar-nav ms-auto d-flex align-items-center">
               <li className="nav-item ms-1">
-                <FaGithub href="" className="nav-link" size={50} />
+                <FaGithub href="" className="nav-link social" size={50} />
               </li>
               <li className="nav-item ms-1">
-                <FaLinkedin href="" className="nav-link" size={50} />
+                <FaLinkedin href="" className="nav-link social" size={50} />
               </li>
               <li className="nav-item ms-1">
-                <FaFacebook href="" className="nav-link" size={50} />
+                <FaFacebook href="" className="nav-link social" size={50} />
               </li>
               <li className="nav-item ms-1">
-                <FaTwitter href="" className="nav-link" size={50} />
+                <FaTwitter href="" className="nav-link social" size={50} />
               </li>
             </ul>
           </div>

@@ -9,6 +9,23 @@
 .navbar {
   position: fixed;
   width: 100%;
+  border-bottom: 2px solid black;
+}
+
+.navbar a {
+  font-weight: 900;
+}
+
+.navbar .social {
+  cursor: pointer;
+}
+
+.navbar .social:hover {
+  color: slateblue;
+}
+
+.navbar a:hover {
+  color: slateblue;
 }
 
 /* Banner */
@@ -16,7 +33,7 @@
 .banner {
   min-height: 100vh;
   height: auto;
-  background: url("./assets/background.jpeg") no-repeat;
+  background: url("./assets/2.jpeg") no-repeat;
   background-position: center;
   background-size: cover;
   display: flex;
@@ -30,24 +47,60 @@
   max-width: 900px;
   align-items: center;
   justify-content: center;
-  color: white;
+  color: black;
 }
 
 .banner .box h1 {
   font-size: 50px;
-  font-weight: bold;
+  text-align: center;
+  font-weight: 900;
+  margin: 10px;
 }
 
 .banner span {
-  max-width: 600px;
+  max-width: 620px;
+  margin: 10px;
+  font-size: 20px;
+  text-align: center;
 }
 
-.banner button {
+.banner a {
+  text-align: center;
+  text-decoration: none;
   margin-top: 60px;
   width: 300px;
   max-width: 500px;
-  padding: 10px;
-  border-radius: 30px;
+  padding: 20px;
+  border: transparent;
+  background: slateblue;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  transition: transform 0.2s ease-in-out;
+}
+
+.banner a:hover {
+  transform: translateY(-5px);
+}
+
+@media (max-width: 300px) {
+  .banner .box h1 {
+    font-size: 40px;
+  }
+
+  .banner a {
+    text-align: center;
+    text-decoration: none;
+    margin-top: 60px;
+    width: 200px;
+    max-width: 500px;
+    padding: 20px;
+    border: transparent;
+    background: slateblue;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+  }
 }
 
 /* About */
@@ -60,14 +113,23 @@
 .about .top {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 .about .title {
   margin-top: 100px;
 }
 
-.about .row
-{
+.about .title h1 {
+  font-weight: 900;
+}
+
+.about .top p {
+  max-width: 530px;
+  margin: 10px;
+}
+
+.about .row {
   margin-top: 50px;
 }
 
@@ -75,26 +137,48 @@
   align-items: center;
   justify-content: center;
   display: grid;
-  gap: 1rem;
-  grid-template-columns: auto auto auto;
-  max-width: 400px;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); /* Użyj auto-fill, aby wypełnić dostępne miejsce */
+  max-width: 600px;
 }
 
 .about .skill {
-  background-color: rgb(218, 214, 214);
-  border-radius: 20px;
-  padding: 10px;
+  background-color: rgb(181, 167, 167);
+  border-radius: 5px;
+  padding: 15px;
+  max-width: 400px;
+}
+
+.about .button {
+  text-align: left;
+  margin-top: 50px;
+}
+
+.about .button a {
+  text-align: center;
+  text-decoration: none;
+  margin-top: 60px;
+  border-radius: 5px;
+  width: 200px;
+  max-width: 500px;
+  padding: 20px;
+  border: transparent;
+  background: slateblue;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.about .button:hover a {
+  transform: translateY(-5px);
 }
 
 .col h1 {
   text-align: left;
+  font-weight: 900;
 }
 
 .col p {
-  text-align: left;
-}
-
-.about .button {
   text-align: left;
 }
 
@@ -169,7 +253,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 80px;
+  margin-top: 40px;
   background-color: white;
   min-width: 100px;
   padding: 50px;

@@ -34,25 +34,25 @@ const About = () => {
               learn, and grow. If you have a fitting opportunity aligning with
               my skills and experience, feel free to reach out."
             </p>
-            <div className="button mt-4">
-              <button className="btn btn-primary">Contact</button>
+            <div className="button">
+              <a href="#contact">Contact</a>
             </div>
           </div>
           <div className="col p-5">
             <h1>My Skills</h1>
             <div className="skills mt-5">
-              <div className="skill html">HTML</div>
-              <div className="skill css">CSS</div>
-              <div className="skill js">JavaScript</div>
-              <div className="skill ts">TypeScript</div>
-              <div className="skill react">React</div>
-              <div className="skill angular">Angular</div>
-              <div className="skill vue">Vue</div>
-              <div className="skill git">GIT</div>
-              <div className="skill github">Github</div>
-              <div className="skill rd">Responsive Design</div>
-              <div className="skill node">Node JS</div>
-              <div className="skill md">MongoDB</div>
+              <div className="skill">HTML</div>
+              <div className="skill">CSS</div>
+              <div className="skill">JavaScript</div>
+              <div className="skill">TypeScript</div>
+              <div className="skill">React</div>
+              <div className="skill">Angular</div>
+              <div className="skill">Vue</div>
+              <div className="skill">GIT</div>
+              <div className="skill">Github</div>
+              <div className="skill">Responsive</div>
+              <div className="skill">Node JS</div>
+              <div className="skill">MongoDB</div>
             </div>
           </div>
         </div>

@@ -6,11 +6,10 @@ const Banner = () => {
       <div className="box">
         <h1 className="mb-5">WELCOME, I'M KACPER SZWEDA</h1>
         <span>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam dolorem
-          magnam quod minus sit. Tempora id enim magni ullam vel ab consequatur
-          inventore iure reprehenderit, commodi, illum impedit pariatur maiores?
+          Greetings! I'm a Frontend Web Developer sculpting digital experiences
+          for success. Let's turn ideas into captivating realities together!
         </span>
-        <button className="">PROJECTS</button>
+        <a href="#projects" >PROJECTS</a>
       </div>
     </section>
   );

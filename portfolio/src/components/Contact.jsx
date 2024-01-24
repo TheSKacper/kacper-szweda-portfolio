@@ -9,10 +9,8 @@ const Contact = () => {
             <h1>Contact</h1>
           </div>
           <p className="mt-4">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam,
-            voluptatibus quaerat aperiam excepturi, est ea cumque alias
-            consequuntur soluta quas veritatis tempore et voluptate? Suscipit,
-            enim? Minima expedita fugiat corrupti.
+            Feel free to Contact me by submitting the form below and I will get
+            back to you as soon as possible
           </p>
         </div>
       </div>
