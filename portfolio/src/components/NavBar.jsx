@@ -60,16 +60,24 @@ const NavBar = () => {
             </ul>
             <ul className="navbar-nav ms-auto d-flex align-items-center">
               <li className="nav-item ms-1">
-                <FaGithub href="" className="nav-link social" size={50} />
+                <a href="https://github.com/TheSKacper">
+                  <FaGithub className="nav-link social" size={50} />
+                </a>
               </li>
               <li className="nav-item ms-1">
-                <FaLinkedin href="" className="nav-link social" size={50} />
+                <a href="https://www.linkedin.com/in/kacper-szweda-a11a3724b/">
+                  <FaLinkedin className="nav-link social" size={50} />
+                </a>
               </li>
               <li className="nav-item ms-1">
-                <FaFacebook href="" className="nav-link social" size={50} />
+                <a href="https://www.facebook.com/kacper.szweda.1">
+                  <FaFacebook className="nav-link social" size={50} />
+                </a>
               </li>
               <li className="nav-item ms-1">
-                <FaTwitter href="" className="nav-link social" size={50} />
+                <a href="https://twitter.com/Kacper_JMS">
+                  <FaTwitter className="nav-link social" size={50} />
+                </a>
               </li>
             </ul>
           </div>

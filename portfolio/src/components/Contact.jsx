@@ -14,7 +14,8 @@ const Contact = () => {
           </p>
         </div>
       </div>
-      <form action="" className=" contact-form">
+      <div className="down">
+      <form className="contact-form">
         <div className="mb-3">
           <label htmlFor="exampleFormControlInput1" className="form-label">
             Name
@@ -23,7 +24,7 @@ const Contact = () => {
             type="text"
             className="form-control"
             id="exampleFormControlInput1"
-            placeholder="Your name"
+            placeholder="Enter Your Name"
           />
         </div>
         <div className="mb-3">
@@ -34,7 +35,7 @@ const Contact = () => {
             type="email"
             className="form-control"
             id="exampleFormControlInput2"
-            placeholder="name@example.com"
+            placeholder="Enter Your Email"
           />
         </div>
         <div className="mb-3">
@@ -43,7 +44,7 @@ const Contact = () => {
           </label>
           <textarea
             className="form-control"
-            placeholder="Your message"
+            placeholder="Enter Your Message"
             id="exampleFormControlTextarea1"
             rows="8"
           ></textarea>
@@ -52,6 +53,7 @@ const Contact = () => {
           SUBMIT
         </button>
       </form>
+      </div>
     </section>
   );
 };
