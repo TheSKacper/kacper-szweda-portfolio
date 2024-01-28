@@ -1,5 +1,5 @@
 import React from "react";
-import CV from '../assets/Kacper Szweda CV.pdf'
+import CV from '../assets/CV Kacper Szweda.pdf'
 import RF from '../assets/Kacper Szweda referencje .pdf'
 import { FaGithub, FaLinkedin, FaFacebook, FaTwitter } from "react-icons/fa";
 
@@ -15,7 +15,7 @@ const Footer = () => {
             product
           </p>
           <div className="contactMe">
-          <a className="btn cv" href={CV} download='Kacper Szweda CV.pdf'>CV</a>
+          <a className="btn cv" href={CV} download='CV Kacper Szweda.pdf'>CV</a>
           <a className="btn reef" href={RF} download='Kacper Szweda referencje .pdf'>REFERENCE</a>
         </div>
         </div>
