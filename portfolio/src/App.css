@@ -144,7 +144,7 @@
 }
 
 .about .skill {
-  background-color:rgb(248,248,248);
+  background-color: rgb(248, 248, 248);
   border-radius: 5px;
   padding: 15px;
   max-width: 400px;
@@ -257,10 +257,14 @@
 
 .footerModal {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
 }
 
-
+.footerModal .test .btn
+{
+    margin-right: 10px;
+}
 
 .modal .btn {
   background-color: slateblue;
@@ -278,8 +282,7 @@ h2 {
   font-weight: 900;
 }
 
-.modal img 
-{
+.modal img {
   display: block;
   width: 100%;
   margin-bottom: 10px;
@@ -314,8 +317,7 @@ h2 {
   flex-direction: column;
 }
 
-.down
-{
+.down {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -336,14 +338,13 @@ h2 {
 }
 
 .contact .contact-form .btn {
-    font-weight: 700;
-    background: slateblue;
-    min-width: 200px;
-    transition: transform 0.2s ease-in-out;
+  font-weight: 700;
+  background: slateblue;
+  min-width: 200px;
+  transition: transform 0.2s ease-in-out;
 }
 
-.contact .contact-form .btn:hover 
-{
+.contact .contact-form .btn:hover {
   transform: translateY(-3px);
 }
 
@@ -354,8 +355,7 @@ h2 {
   border: none;
 }
 
-.contact label 
-{
+.contact label {
   font-weight: 700;
 }
 
@@ -363,7 +363,7 @@ h2 {
   border: none;
   min-width: 600px;
   padding: 20px;
-  background:whitesmoke ;
+  background: whitesmoke;
 }
 
 @media (max-width: 600px) {
@@ -394,7 +394,6 @@ h2 {
   .contact .contact-form {
     margin-bottom: 40px;
   }
-
 }
 
 /* footer */
@@ -411,7 +410,7 @@ h2 {
 }
 
 .footer .social {
-  text-align: center
+  text-align: center;
 }
 
 .footer .social a {

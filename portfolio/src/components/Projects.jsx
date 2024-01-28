@@ -215,9 +215,12 @@ const Projects = () => {
         </Modal.Header>
         <Modal.Body>{renderModalContent()}</Modal.Body>
         <Modal.Footer className="footerModal">
+          <div className="test">
           <a className="btn" href={"https://" + rederModalLink()}>
             PROJECT LINK
           </a>
+          <a href="" className="btn">Active</a>
+          </div>
           <button className="btn btn-secondary" onClick={closeModal}>
             GO BACK
           </button>
