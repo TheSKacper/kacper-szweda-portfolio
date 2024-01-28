@@ -10,6 +10,7 @@
   position: fixed;
   width: 100%;
   border-bottom: 2px solid black;
+  padding: 20px;
 }
 
 .navbar a {
@@ -261,9 +262,8 @@
   justify-content: space-between;
 }
 
-.footerModal .test .btn
-{
-    margin-right: 10px;
+.footerModal .test .btn {
+  margin-right: 10px;
 }
 
 .modal .btn {
@@ -309,7 +309,7 @@ h2 {
 }
 
 .contact .title h1 {
-  font-weight: 900;
+  font-weight: bolder;
 }
 
 .contact .top {
@@ -319,6 +319,7 @@ h2 {
 
 .down {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
@@ -423,6 +424,22 @@ h2 {
 
 .footer h5 {
   text-align: center;
+}
+
+.footer .contactMe .btn {
+  color: white;
+  margin-bottom: 20px;
+  background-color: slateblue;
+  font-weight: 700;
+  transition: transform 0.2s ease-in-out;
+}
+
+.footer .contactMe .cv {
+  margin-right: 20px;
+}
+
+.footer .contactMe .btn:hover {
+  transform: translateY(-5px);
 }
 
 @media (max-width: 990px) {

@@ -136,7 +136,7 @@ const Projects = () => {
       <div className="container">
         <div className="top">
           <div className="title">
-            <h1>Projects</h1>
+            <h1>PROJECTS</h1>
           </div>
           <p className="mt-4">
             Explore my latest projects that showcase both my skills and passion
@@ -219,7 +219,7 @@ const Projects = () => {
           <a className="btn" href={"https://" + rederModalLink()}>
             PROJECT LINK
           </a>
-          <a href="" className="btn">Active</a>
+          {selectedProject === 'iwona' ? <a href="https://theskacper.github.io/iwona-palys-szweda-website/" className="btn">Active</a> : null}
           </div>
           <button className="btn btn-secondary" onClick={closeModal}>
             GO BACK
