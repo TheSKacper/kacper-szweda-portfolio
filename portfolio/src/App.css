@@ -10,6 +10,8 @@
   position: fixed;
   width: 100%;
   border-bottom: 2px solid black;
+  letter-spacing: 2px;
+  z-index: 200;
 }
 
 .navbar a {
@@ -33,7 +35,7 @@
 .banner {
   min-height: 100vh;
   height: auto;
-  background: url("./assets/2.jpeg") no-repeat;
+  background: url('./assets/2.jpeg') no-repeat;
   background-position: center;
   background-size: cover;
   display: flex;
@@ -261,7 +263,7 @@
   justify-content: space-between;
 }
 
-.footerModal .test .btn {
+.footerModal .activeButton .btn {
   margin-right: 10px;
 }
 
@@ -292,7 +294,7 @@ h2 {
 .contact {
   text-align: center;
   min-height: 90vh;
-  background: url("./assets/2.jpeg") no-repeat;
+  background: url('./assets/2.jpeg') no-repeat;
   background-size: cover;
   background-position: center;
 }

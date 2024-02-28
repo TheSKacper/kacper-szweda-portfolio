@@ -6,17 +6,17 @@ const About = () => {
       <div className="container">
         <div className="top">
           <div className="title">
-            <h1>ABOUT ME</h1>
+            <h1 data-aos='fade-up' data-aos-delay='200'>ABOUT ME</h1>
           </div>
-          <p className="mt-4">
+          <p data-aos='fade-up' data-aos-delay='250' className="mt-4">
             Here you will find more information about me, what I do, and my
             current skills mostly in terms of programming and technology
           </p>
         </div>
         <div className="row">
           <div className="col p-5">
-            <h1>Get to know me !</h1>
-            <p className="mt-5">
+            <h1 data-aos='fade-up' data-aos-delay='200'>Get to know me !</h1>
+            <p className="mt-5" data-aos='fade-up' data-aos-delay='250'>
               "I'm a junior Frontend Developer passionate about crafting and
               enhancing web applications using the Angular framework. Holding an
               engineering degree in software engineering from the University of
@@ -35,24 +35,24 @@ const About = () => {
               my skills and experience, feel free to reach out."
             </p>
             <div className="button">
-              <a href="#contact">Contact</a>
+              <a data-aos='fade-up' data-aos-delay='250' href="#contact">Contact</a>
             </div>
           </div>
           <div className="col p-5">
-            <h1>My Skills</h1>
+            <h1 data-aos='zoom-in' data-aos-delay='200'>My Skills</h1>
             <div className="skills mt-5">
-              <div className="skill">HTML</div>
-              <div className="skill">CSS</div>
-              <div className="skill">JavaScript</div>
-              <div className="skill">TypeScript</div>
-              <div className="skill">React</div>
-              <div className="skill">Angular</div>
-              <div className="skill">Vue</div>
-              <div className="skill">GIT</div>
-              <div className="skill">Github</div>
-              <div className="skill">Responsive</div>
-              <div className="skill">Node JS</div>
-              <div className="skill">MongoDB</div>
+              <div data-aos='zoom-in' data-aos-delay='250' className="skill">HTML</div>
+              <div data-aos='zoom-in' data-aos-delay='150' className="skill">CSS</div>
+              <div data-aos='zoom-in' data-aos-delay='350' className="skill">JavaScript</div>
+              <div data-aos='zoom-in' data-aos-delay='100' className="skill">TypeScript</div>
+              <div data-aos='zoom-in' data-aos-delay='150' className="skill">React</div>
+              <div data-aos='zoom-in' data-aos-delay='300' className="skill">Angular</div>
+              <div data-aos='zoom-in' data-aos-delay='250' className="skill">Vue</div>
+              <div data-aos='zoom-in' data-aos-delay='100' className="skill">GIT</div>
+              <div data-aos='zoom-in' data-aos-delay='350' className="skill">Github</div>
+              <div data-aos='zoom-in' data-aos-delay='200' className="skill">Responsive</div>
+              <div data-aos='zoom-in' data-aos-delay='150' className="skill">Node JS</div>
+              <div data-aos='zoom-in' data-aos-delay='350' className="skill">MongoDB</div>
             </div>
           </div>
         </div>

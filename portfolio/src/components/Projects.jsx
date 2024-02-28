@@ -1,14 +1,13 @@
-import React, { useState } from "react";
-import { Modal } from "react-bootstrap";
-import iwonaPage from "../assets/iwonaPage.png";
-import shopPage from "../assets/shopPage.png";
-import ksHotelPage from "../assets/ksHotelPage.png";
+import React, { useState } from 'react';
+import { Modal } from 'react-bootstrap';
+import iwonaPage from '../assets/iwonaPage.png';
+import shopPage from '../assets/shopPage.png';
+import chef from '../assets/Chef.png';
 
 const Projects = () => {
   const [showModal, setShowModal] = useState(false);
   const [selectedProject, setSelectedProject] = useState(null);
 
-  
   const openModal = (project) => {
     setSelectedProject(project);
     setShowModal(true);
@@ -21,12 +20,12 @@ const Projects = () => {
 
   const rederModalTitle = () => {
     switch (selectedProject) {
-      case "iwona":
+      case 'iwona':
         return <h1>Iwona website</h1>;
-      case "grandmom":
+      case 'grandmom':
         return <h1>Shop website</h1>;
-      case "ksHotel":
-        return <h1>Hotel website</h1>;
+      case 'chef':
+        return <h1>Chef website</h1>;
       default:
         return null;
     }
@@ -34,12 +33,12 @@ const Projects = () => {
 
   const rederModalLink = () => {
     switch (selectedProject) {
-      case "iwona":
-        return "github.com/TheSKacper/iwona-palys-szweda-website";
-      case "grandmom":
-        return "github.com/TheSKacper/TJShop";
-      case "ksHotel":
-        return "github.com/TheSKacper/KS-HOTEL";
+      case 'iwona':
+        return 'github.com/TheSKacper/iwona-palys-szweda-website';
+      case 'grandmom':
+        return 'github.com/TheSKacper/TJShop';
+      case 'chef':
+        return 'github.com/TheSKacper/Chef-Roksana-web-page';
       default:
         return null;
     }
@@ -47,10 +46,10 @@ const Projects = () => {
 
   const renderModalContent = () => {
     switch (selectedProject) {
-      case "iwona":
+      case 'iwona':
         return (
           <div>
-            <img src={iwonaPage} alt="" />
+            <img src={iwonaPage} alt='' />
             <h2>Project Overview</h2>
             <p>
               I've designed a special website for my mom, a talented painter.
@@ -63,20 +62,20 @@ const Projects = () => {
               create a space where her talent shines.
             </p>
             <h2>Tools Used</h2>
-            <div className="tools">
-              <div className="toolSkill">HTML</div>
-              <div className="toolSkill">CSS</div>
-              <div className="toolSkill">JavaScript</div>
-              <div className="toolSkill">React</div>
-              <div className="toolSkill">Bootstrap</div>
-              <div className="toolSkill">Git</div>
+            <div className='tools'>
+              <div className='toolSkill'>HTML</div>
+              <div className='toolSkill'>CSS</div>
+              <div className='toolSkill'>JavaScript</div>
+              <div className='toolSkill'>React</div>
+              <div className='toolSkill'>Bootstrap</div>
+              <div className='toolSkill'>Git</div>
             </div>
           </div>
         );
-      case "grandmom":
+      case 'grandmom':
         return (
           <div>
-            <img src={shopPage} alt="" />
+            <img src={shopPage} alt='' />
             <h2>Project Overview</h2>
             <p>
               I've crafted an online store for my grandma's shop, featuring a
@@ -89,40 +88,36 @@ const Projects = () => {
               special.
             </p>
             <h2>Tools Used</h2>
-            <div className="tools">
-              <div className="toolSkill">HTML</div>
-              <div className="toolSkill">CSS</div>
-              <div className="toolSkill">TypeScript</div>
-              <div className="toolSkill">Angular</div>
-              <div className="toolSkill">Bootstrap</div>
-              <div className="toolSkill">Git</div>
+            <div className='tools'>
+              <div className='toolSkill'>HTML</div>
+              <div className='toolSkill'>CSS</div>
+              <div className='toolSkill'>TypeScript</div>
+              <div className='toolSkill'>Angular</div>
+              <div className='toolSkill'>Bootstrap</div>
+              <div className='toolSkill'>Git</div>
             </div>
           </div>
         );
-      case "ksHotel":
+      case 'chef':
         return (
           <div>
-            <img src={ksHotelPage} alt="" />
+            <img src={chef} alt='' />
             <h2>Project Overview</h2>
             <p>
-              I developed an online presence for a hotel, offering guests a
-              seamless and elegant experience. From a sleek design to
-              user-friendly features, the website reflects the comfort and
-              sophistication synonymous with the hotel's brand. It's designed to
-              provide guests with easy access to information, making their
-              online experience as enjoyable as their stay. I'm proud to
-              contribute to enhancing the hotel's digital presence and ensuring
-              a positive impression for potential guests.
+              Presenting Chef Roxana's digital hub, meticulously crafted to
+              spotlight her culinary triumphs and offerings. From bespoke
+              catering services to artisanal delights, immerse yourself in a
+              virtual journey of taste and elegance. With seamless navigation
+              and captivating design, this website embodies the essence of Chef
+              Roxana's expertise, proudly brought to life by my design
             </p>
             <h2>Tools Used</h2>
-            <div className="tools">
-              <div className="toolSkill">HTML</div>
-              <div className="toolSkill">CSS</div>
-              <div className="toolSkill">TypeScript</div>
-              <div className="toolSkill">Angular</div>
-              <div className="toolSkill">Node.js</div>
-              <div className="toolSkill">Bootstrap</div>
-              <div className="toolSkill">Git</div>
+            <div className='tools'>
+              <div className='toolSkill'>HTML</div>
+              <div className='toolSkill'>CSS</div>
+              <div className='toolSkill'>JavaScript</div>
+              <div className='toolSkill'>Bootstrap</div>
+              <div className='toolSkill'>Git</div>
             </div>
           </div>
         );
@@ -132,31 +127,31 @@ const Projects = () => {
   };
 
   return (
-    <div className="projects" id="projects">
-      <div className="container">
-        <div className="top">
-          <div className="title">
-            <h1>PROJECTS</h1>
+    <div className='projects' id='projects'>
+      <div className='container'>
+        <div className='top'>
+          <div className='title'>
+            <h1 data-aos='fade-up' data-aos-delay='200'>PROJECTS</h1>
           </div>
-          <p className="mt-4">
+          <p data-aos='fade-up' data-aos-delay='250' className='mt-4'>
             Explore my latest projects that showcase both my skills and passion
             for crafting web applications.
           </p>
         </div>
 
-        <div className="row">
-          <div className="col-md-6 p-5 order-md-6">
-            <img src={iwonaPage} alt="" className="img" />
+        <div data-aos='fade-up' data-aos-delay='200' className='row'>
+          <div className='col-md-6 p-5 order-md-6'>
+            <img src={iwonaPage} alt='' className='img' />
           </div>
-          <div className="col-md-6 p-5 order-md-2">
-            <div className="desc">
-              <h1 className="mb-2">Iwona website</h1>
+          <div className='col-md-6 p-5 order-md-2'>
+            <div className='desc'>
+              <h1 className='mb-2'>Iwona website</h1>
               <p>
                 Created a website for Mom from scratch, showcasing her interests
                 and passions. Designed with love and tailored to her style.
               </p>
-              <div className="button">
-                <button className="btn" onClick={() => openModal("iwona")}>
+              <div className='button'>
+                <button className='btn' onClick={() => openModal('iwona')}>
                   CASE STUDY
                 </button>
               </div>
@@ -164,21 +159,21 @@ const Projects = () => {
           </div>
         </div>
 
-        <div className="row">
-          <div className="col-md-6 p-5 order-md-1">
-            <img src={shopPage} alt="" className="img" />
+        <div data-aos='fade-up' data-aos-delay='250' className='row'>
+          <div className='col-md-6 p-5 order-md-1'>
+            <img src={shopPage} alt='' className='img' />
           </div>
-          <div className="col-md-6 p-5 order-md-2">
-            <div className="desc">
-              <h1 className="mb-2">Shop website</h1>
+          <div className='col-md-6 p-5 order-md-2'>
+            <div className='desc'>
+              <h1 className='mb-2'>Shop website</h1>
               <p>
                 Crafted a website for Grandma's store, capturing the essence of
                 her business. From unique products to a personalized touch, this
                 site reflects her shop's charm. Eager to see her business thrive
                 online!
               </p>
-              <div className="button">
-                <button className="btn" onClick={() => openModal("grandmom")}>
+              <div className='button'>
+                <button className='btn' onClick={() => openModal('grandmom')}>
                   CASE STUDY
                 </button>
               </div>
@@ -186,21 +181,22 @@ const Projects = () => {
           </div>
         </div>
 
-        <div className="row">
-          <div className="col-md-6 p-5 order-md-1">
-            <img src={ksHotelPage} alt="" className="img" />
+        <div data-aos='fade-up' data-aos-delay='300' className='row'>
+          <div className='col-md-6 p-5 order-md-1'>
+            <img src={chef} alt='' className='img' />
           </div>
-          <div className="col-md-6 p-5 order-md-2">
-            <div className="desc">
-              <h1 className="mb-2 dt">Hotel website</h1>
+          <div className='col-md-6 p-5 order-md-2'>
+            <div className='desc'>
+              <h1 className='mb-2 dt'>Chef website</h1>
               <p>
-                Developed a website for KS Hotel, offering a seamless online
-                experience for guests. From sleek design to user-friendly
-                features, the site reflects the comfort and elegance synonymous
-                with KS Hotel.
+                Crafted a dynamic online platform for Chef Roxana's culinary
+                world, delivering a seamless browsing experience for visitors.
+                With its sleek design and intuitive functionality, the site
+                mirrors the sophistication and culinary excellence associated
+                with Chef Roxana's brand."
               </p>
-              <div className="button">
-                <button className="btn" onClick={() => openModal("ksHotel")}>
+              <div className='button'>
+                <button className='btn' onClick={() => openModal('chef')}>
                   CASE STUDY
                 </button>
               </div>
@@ -209,19 +205,43 @@ const Projects = () => {
         </div>
       </div>
 
-      <Modal centered show={showModal} onHide={closeModal} className="modal">
+      <Modal centered show={showModal} onHide={closeModal} className='modal'>
         <Modal.Header closeButton>
           <Modal.Title>{rederModalTitle()}</Modal.Title>
         </Modal.Header>
         <Modal.Body>{renderModalContent()}</Modal.Body>
-        <Modal.Footer className="footerModal">
-          <div className="test">
-          <a className="btn" href={"https://" + rederModalLink()}>
-            PROJECT LINK
-          </a>
-          {selectedProject === 'iwona' ? <a href="https://theskacper.github.io/iwona-palys-szweda-website/" className="btn">Active</a> : null}
+        <Modal.Footer className='footerModal'>
+          <div className='activeButton'>
+            <a
+              target='_blank'
+              rel='noreferrer'
+              className='btn'
+              href={'https://' + rederModalLink()}
+            >
+              PROJECT LINK
+            </a>
+            {selectedProject === 'iwona' ? (
+              <a
+                target='_blank'
+                rel='noreferrer'
+                href='https://theskacper.github.io/iwona-palys-szweda-website/'
+                className='btn'
+              >
+                Active
+              </a>
+            ) : null}
+            {selectedProject === 'chef' ? (
+              <a
+                target='_blank'
+                rel='noreferrer'
+                href='https://theskacper.github.io/Chef-Roksana-web-page/'
+                className='btn'
+              >
+                Active
+              </a>
+            ) : null}
           </div>
-          <button className="btn btn-secondary" onClick={closeModal}>
+          <button className='btn btn-secondary' onClick={closeModal}>
             GO BACK
           </button>
         </Modal.Footer>
