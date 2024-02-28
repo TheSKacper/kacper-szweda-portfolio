@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/kacper-szweda-portfolio/static/css/main.a8f91fac.css",
-    "main.js": "/kacper-szweda-portfolio/static/js/main.d0c0f0bc.js",
+    "main.css": "/kacper-szweda-portfolio/static/css/main.272c32c1.css",
+    "main.js": "/kacper-szweda-portfolio/static/js/main.91738552.js",
+    "static/media/Chef.png": "/kacper-szweda-portfolio/static/media/Chef.42fcb4b470cb52155e03.png",
     "static/media/iwonaPage.png": "/kacper-szweda-portfolio/static/media/iwonaPage.5cf25597dc63874f475f.png",
-    "static/media/ksHotelPage.png": "/kacper-szweda-portfolio/static/media/ksHotelPage.8cff3969111b97d8a577.png",
     "static/media/shopPage.png": "/kacper-szweda-portfolio/static/media/shopPage.ca08e5730410327aaa3d.png",
     "static/media/Kacper Szweda referencje .pdf": "/kacper-szweda-portfolio/static/media/Kacper Szweda referencje .381189a346b67793ca2c.pdf",
-    "static/media/CV Kacper Szweda.pdf": "/kacper-szweda-portfolio/static/media/CV Kacper Szweda.14aab1e466288c20906c.pdf",
+    "static/media/Kacper Szweda CV.pdf": "/kacper-szweda-portfolio/static/media/Kacper Szweda CV.e51dc3806a255a02b891.pdf",
     "index.html": "/kacper-szweda-portfolio/index.html",
-    "main.a8f91fac.css.map": "/kacper-szweda-portfolio/static/css/main.a8f91fac.css.map",
-    "main.d0c0f0bc.js.map": "/kacper-szweda-portfolio/static/js/main.d0c0f0bc.js.map"
+    "main.272c32c1.css.map": "/kacper-szweda-portfolio/static/css/main.272c32c1.css.map",
+    "main.91738552.js.map": "/kacper-szweda-portfolio/static/js/main.91738552.js.map"
   },
   "entrypoints": [
-    "static/css/main.a8f91fac.css",
-    "static/js/main.d0c0f0bc.js"
+    "static/css/main.272c32c1.css",
+    "static/js/main.91738552.js"
   ]
 }
