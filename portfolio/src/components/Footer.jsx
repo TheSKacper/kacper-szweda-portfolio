@@ -1,5 +1,5 @@
 import React from 'react';
-import CV from '../assets/Kacper Szweda CV.pdf';
+import CV from '../assets/Kacper_Szweda_CV.pdf';
 import RF from '../assets/Kacper Szweda referencje .pdf';
 import { FaGithub, FaLinkedin, FaFacebook, FaTwitter } from 'react-icons/fa';
 

@@ -92,8 +92,10 @@ const Projects = () => {
               <div className='toolSkill'>HTML</div>
               <div className='toolSkill'>CSS</div>
               <div className='toolSkill'>TypeScript</div>
-              <div className='toolSkill'>Angular</div>
+              <div className='toolSkill'>React</div>
               <div className='toolSkill'>Bootstrap</div>
+              <div className='toolSkill'>Java Spring</div>
+              <div className='toolSkill'>MongoDB</div>
               <div className='toolSkill'>Git</div>
             </div>
           </div>
