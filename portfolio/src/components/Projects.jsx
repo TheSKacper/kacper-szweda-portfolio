@@ -36,7 +36,7 @@ const Projects = () => {
       case 'iwona':
         return 'github.com/TheSKacper/iwona-palys-szweda-website';
       case 'grandmom':
-        return 'github.com/TheSKacper/TJShop';
+        return 'https://github.com/TheSKacper/ShopFrontendAndBackend';
       case 'chef':
         return 'github.com/TheSKacper/Chef-Roksana-web-page';
       default:
@@ -133,7 +133,9 @@ const Projects = () => {
       <div className='container'>
         <div className='top'>
           <div className='title'>
-            <h1 data-aos='fade-up' data-aos-delay='200'>PROJECTS</h1>
+            <h1 data-aos='fade-up' data-aos-delay='200'>
+              PROJECTS
+            </h1>
           </div>
           <p data-aos='fade-up' data-aos-delay='250' className='mt-4'>
             Explore my latest projects that showcase both my skills and passion
